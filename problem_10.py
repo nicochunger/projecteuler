@@ -22,7 +22,7 @@ def find_primes(n):
             primes.append(i)
     return primes
 
-primes = find_primes(2000000)
+primes = find_primes(20000)
 total_sum = 0
 for i in primes:
     total_sum += i
