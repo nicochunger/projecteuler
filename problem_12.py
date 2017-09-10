@@ -14,7 +14,8 @@ def check_divisors(n):
 divisors = 1
 number = 1
 tri_nums = []
-while divisors <= 500:
+target = 500
+while divisors <= target:
     if number == 1:
         tri_nums.append(1)
     else:
@@ -25,5 +26,7 @@ while divisors <= 500:
         divisors = curr_div
         print divisors
     number += 1
+
+print tri_nums[-1]
 
 # print tri_nums
